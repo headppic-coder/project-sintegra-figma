@@ -1,0 +1,9 @@
+{
+  "supabase": {
+    "edge_functions": {
+      "enabled": false,
+      "deploy": false,
+      "auto_deploy": false
+    }
+  }
+}

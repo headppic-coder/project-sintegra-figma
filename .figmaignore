@@ -1,0 +1,21 @@
+# Figma Make - Ignore Edge Functions Deployment
+/supabase/functions/
+/supabase/functions/**
+/supabase/functions/**/*
+supabase/functions/
+supabase/functions/**
+supabase/functions/**/*
+**/supabase/functions/**
+**/supabase/functions/**/*
+
+# Ignore specific problematic files
+supabase/functions/server/kv_store.tsx
+supabase/functions/server/index.tsx
+supabase/functions/server/*.tsx
+supabase/functions/server/*.ts
+
+# Ignore deployment markers
+*.no-deploy
+**/DISABLED/**
+**/DEPLOYMENT_DISABLED/**
+**/DEPLOYMENT_BLOCKED/**

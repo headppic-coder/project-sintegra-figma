@@ -1,0 +1,5 @@
+# This file instructs deployment systems to skip edge function deployment
+# The application uses direct Supabase client connection, not edge functions
+
+SKIP_EDGE_FUNCTIONS=true
+SKIP_FUNCTIONS_DEPLOY=true

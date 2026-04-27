@@ -1,0 +1,21 @@
+{
+  "deployment": {
+    "edgeFunctions": {
+      "enabled": false,
+      "deploy": false,
+      "exclude": [
+        "supabase/functions/**",
+        "**/functions/**"
+      ]
+    }
+  },
+  "supabase": {
+    "edgeFunctions": false,
+    "directClient": true
+  },
+  "ignore": [
+    "supabase/functions/",
+    "supabase/functions/**/*",
+    "**/edge_functions/**"
+  ]
+}

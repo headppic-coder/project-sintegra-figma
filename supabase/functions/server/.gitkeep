@@ -1,0 +1,3 @@
+# This directory is intentionally empty
+# Edge functions are disabled for this project
+# All logic runs client-side via /src/app/lib/api.ts

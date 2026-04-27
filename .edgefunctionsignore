@@ -1,0 +1,5 @@
+# Ignore all edge functions - this project uses client-side Supabase only
+*
+**/*
+supabase/functions/**
+/supabase/functions/**

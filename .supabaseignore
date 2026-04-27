@@ -1,0 +1,11 @@
+# Supabase - Ignore Edge Functions
+functions/
+functions/**
+/supabase/functions/
+/supabase/functions/**
+
+# Ignore specific files
+*.no-deploy
+**/DISABLED/**
+**/DEPLOYMENT_DISABLED/**
+**/DEPLOYMENT_BLOCKED/**

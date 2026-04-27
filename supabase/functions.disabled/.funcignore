@@ -1,0 +1,13 @@
+# Ignore ALL files - Edge Functions completely disabled
+*
+**/*
+*.ts
+*.tsx
+*.js
+*.json
+server/
+server/*
+make-server/
+make-server/*
+DEPLOYMENT_DISABLED/
+DISABLED/

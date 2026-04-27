@@ -1,0 +1,16 @@
+# Deployment Ignore File
+# Prevents deployment of unwanted files
+
+# Supabase functions
+supabase/functions/
+supabase/functions/**
+supabase/functions/**/*
+
+# Deno configuration
+deno.json
+supabase/functions/deno.json
+
+# System files
+.DS_Store
+*.log
+node_modules/

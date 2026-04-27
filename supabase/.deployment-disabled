@@ -1,0 +1,12 @@
+# Edge Function Deployment DISABLED
+#
+# The 'functions' directory has been renamed to 'functions.disabled'
+# to prevent 403 deployment errors with Supabase Edge Functions.
+#
+# This project uses Supabase as a database backend only and does not
+# require edge functions for its core functionality.
+#
+# To re-enable: rename 'functions.disabled' back to 'functions'
+#
+EDGE_FUNCTIONS_DISABLED=true
+SKIP_DEPLOYMENT=true

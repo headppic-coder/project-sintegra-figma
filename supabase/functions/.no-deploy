@@ -1,0 +1,3 @@
+# DO NOT DEPLOY
+# This folder should not be deployed as edge functions
+# All functionality is handled client-side via direct Supabase client

@@ -1,0 +1,3 @@
+# SKIP ALL EDGE FUNCTION DEPLOYMENTS
+# This project does not use edge functions
+SKIP=true

@@ -1,0 +1,4 @@
+# Vite - Ignore Supabase Edge Functions
+supabase/functions/
+supabase/functions/**
+**/supabase/functions/**

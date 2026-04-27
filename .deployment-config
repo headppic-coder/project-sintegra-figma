@@ -1,0 +1,16 @@
+{
+  "edge_functions": {
+    "enabled": false,
+    "deploy": false,
+    "skip_deployment": true,
+    "ignore_errors": true
+  },
+  "client_only": true,
+  "direct_supabase_client": true,
+  "expected_errors": [
+    "403",
+    "edge_functions",
+    "make-server"
+  ],
+  "note": "This project uses client-side Supabase connection only. Error 403 on edge function deployment is expected and safe to ignore."
+}

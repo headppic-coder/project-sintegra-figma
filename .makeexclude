@@ -1,0 +1,5 @@
+# Exclude Supabase Edge Functions from Figma Make build
+supabase/functions/
+supabase/functions/**/*.ts
+supabase/functions/**/*.tsx
+supabase/functions/**/*.js
